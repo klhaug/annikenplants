@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* GENERAL */
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: "Dancing Script";
+    font-weight: 400;
+    font-size: 48px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    margin: 6px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Lora';
+    font-size: 18px;
+}
+
+button {
+    box-sizing: border-box;
+    border: 1px solid #115530;
+}
+
+button:hover {
+    box-sizing: border-box;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.304);
+    border: 1px solid black;
+}
+
+/* HEADER */
+nav {
+    height: 80px;
+    padding-left: 116px;
+    padding-right: 116px;
+    background-color: #E8F3F5;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-wrapper {
+    margin: auto;
+    height: 80px;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li {
+    font-family: 'Lora';
+    font-size: 18px;
+    list-style: none;
+    display: inline;
+    margin-left: 44px;
+}
+
+.section {
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.hero-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.hero-section-text {
+    margin: 34px;
+}
+
+.h1-picture-container {
+    display: flex;
+    align-items: center;
+    margin: 6px ;
+}
+
+.flower-icon {
+    margin: 0 6px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 6px;
+}
+
+.primary-button {
+    font-family: 'lora';
+    font-size: 18px;
+    color: white;
+    padding: 0px 24px;
+    height: 44px;
+    background-color: #115530;
+    border-radius: 6px;
+}
+
+.hero-img-container {
+    margin: 34px;
+}
