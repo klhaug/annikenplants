@@ -9,6 +9,10 @@ body {
     margin: 0;
 }
 
+text {
+    font-family: "lora";
+}
+
 h1 {
     font-family: "Dancing Script";
     font-weight: 400;
@@ -16,6 +20,10 @@ h1 {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
 h2 {
     font-family: 'Montserrat';
     font-size: 14px;
@@ -27,6 +35,13 @@ h2 {
 p {
     font-family: 'Lora';
     font-size: 18px;
+}
+
+span {
+    font-family: 'Lora';
+    font-size: 18px;
+    width: fit-content;
+    margin-left: 14px;
 }
 
 button {
@@ -119,6 +134,7 @@ li {
 }
 
 .primary-button {
+    width: 200px;
     font-family: 'lora';
     font-size: 18px;
     color: white;
@@ -130,4 +146,71 @@ li {
 
 .hero-img-container {
     margin: 34px;
+}
+
+
+/* SKJEMA */
+
+.skjema_section {
+    height: 1080px;
+    margin: 0;
+    background-color:#E8F3F5 ;
+}
+
+.skjema-section-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px;
+}
+
+.h1-skjema-containter, h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.skjema-button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.plant-form {
+    font-family: 'Lora';
+    font-size: 18px;
+    box-sizing: border-box;
+    height: 68px;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 24px;
+    margin: 7px;
+    background-color: #e8f3f521;
+
+}
+
+#input-form-plants {
+    display: flex;
+}
+
+.form-input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    margin: 30px 0;
+}
+
+.secondary-button {
+    width: 200px;
+    font-family: 'lora';
+    font-size: 18px;
+    color: #212121;
+    padding: 0px 24px;
+    height: 44px;
+    background-color: #11553000;
+    border-radius: 6px;
+}
+
+.skjema-button-wrapper {
+    margin-top: 30px;
 }

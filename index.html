@@ -32,13 +32,56 @@
                         <img class="flower-icon" src="/assets/planteicon.svg" alt="bw icon of plant">
                     </div>
                     <div class="button-container">
-                        <button class="primary-button hero-button">Legg til ny plante</button>
+                        <button class="primary-button hero-button"><a href="#skjema_section">Legg til ny plante</a></button>
                     </div>
                 </div>
                 <div class="hero-img-container">
                     <img src="/assets/annikenbilde.png" alt="round picture of anniken with plants">
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="section skjema_section">
+        <div class="skjema-section-content-wrapper">
+            <div class="h1-skjema-container">
+                <h1>Skjema</h1>
+            </div>
+            <div class="form-container">
+                <form id="input-form-plants">
+                    <div class="form-input-wrapper">
+                        <span>Navn*</span> <input class="plant-form" type="text" name="navn">
+                    </div>
+                    <div class="form-input-wrapper">
+                        <span>Slekt*</span> <input class="plant-form" type="text" name="slekt">
+                    </div>
+                    <div class="form-input-wrapper">
+                        <span>Vann*</span> <input class="plant-form" type="text" name="vann">
+                    </div>
+                    <div class="form-input-wrapper">
+                        <span>Inne/Ute* </span><select class="plant-form" name ="inne/ute">
+                            <option value="🏠Inne" >🏠Inne</option>
+                            <option value="🌤Ute">🌤Ute</option>
+                        </select> </div>
+                    <div class="form-input-wrapper">
+                        <span>Spiselig*</span><select class="plant-form" name ="spiselig">
+                            <option value="👍"> 👍</option>
+                            <option value="👎">👎</option>
+                        </select>
+                    </div>
+                    <div class="form-input-wrapper">
+                        <span>Kommentar*</span> <input class="plant-form" type="text" name="kommentar">
+                    </div>
+                
+                </div>
+            <div class="skjema-button-wrapper">
+                <div class="button-container">
+                    <button type ="submit" class="primary-button add-flower-button">Legg til plante</button>
+                </div>
+                <div class="button-container">
+                    <button type="reset" class="secondary-button reset-button">Nullstill skjema</button>
+                </div>
+            </div>
+        </form>
         </div>
     </section>
     
